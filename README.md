@@ -1,1 +1,1 @@
-# TJ-TASKS-2022-RUPANSH-JAIN
+I have choosen the tasks of web development, in that I have created a registration form using HTML and Javascript that takes input from the user about personal information and after submitting shows responses to the user.
