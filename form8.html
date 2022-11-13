@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>,initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+    function callvalue(){
+      var n= document.getElementById("uname").value;
+      var email= document.getElementById("email").value;
+      var mobile= document.getElementById("mob").value;
+      document.writeln("YOUR INFO:  <br>"+ " Name:  "+n+"<br>");
+document.writeln("Your email:"+email);
+document.writeln("Your mobile no.:"+mobile);  
+    }
+    </script>
+</head>
+<body>
+  <form onsubmit="callvalue()">
+    <h1>Registration form</h1>
+    username:  <input type="text" placeholder="username" id="uname"><br>
+    email:     <input type="email" placeholder="email" id="email"><br>
+    mobile no.: <input type="number" placeholder="mobile no." id="mob"><br>
+    <input type= "submit" value="register">
+  </form>  
+</body>
+</html>
